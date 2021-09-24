@@ -1,0 +1,47 @@
+{
+  "name": "co",
+  "title": "Chroniques Oubliées Générique",
+  "description": "<p>Système Foundry VTT pour <a href='https://www.black-book-editions.fr/catalogue.php?id=477'>Chroniques Oubliées</a>.</p><p> *** Rejoignez la communauté Discord FR :<a href='https://discord.gg/pPSDNJk'>https://discord.gg/pPSDNJk</a></p>",
+  "version": "0.1.0",
+  "minimumCoreVersion": "0.8.1",
+  "compatibleCoreVersion": "0.8.7",
+  "templateVersion": 2,
+  "author": "Zigmund",
+  "esmodules": [
+    "module/co.js"
+  ],
+  "styles": [
+    "./css/co.css"
+  ],
+  "packs": [
+    {
+      "name": "macros",
+      "label": "Macros",
+      "system": "cof",
+      "path": "./packs/macros.db",
+      "entity": "Macro",
+      "tag" : "macro"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    }
+  ],
+  "socket": true,
+  "gridDistance": 1.5,
+  "gridUnits": "m",
+  "primaryTokenAttribute": "attributes.hp",
+  "secondaryTokenAttribute": null,
+  "url": "https://github.com/ZigmundKreud/co-engine",
+  "manifest": "https://raw.githubusercontent.com/ZigmundKreud/co-engine/master/system.json",
+  "download": "https://github.com/ZigmundKreud/co-engine/archive/0.1.0.zip",
+  "license": "licence.txt"
+}
